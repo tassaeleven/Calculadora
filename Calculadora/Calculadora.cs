@@ -4,28 +4,34 @@ namespace Calculadora
     public class Calculadora
     {
         
-        public Operacoes calcular(Operacoes operacao)
+        public Operacoes Calcular(Operacoes operacao)
         {
             switch(operacao.operador)
             {
-                case '+': operacao.resultado= soma(operacao);break;
-                case '-': operacao.resultado = subtracao(operacao);break;
-                case '*': operacao.resultado = multiplicacao(operacao);break;
+                case '/': operacao.resultado = Divisao(operacao); break;
+                case '+': operacao.resultado = Soma(operacao);break;
+                case '*': operacao.resultado = Multiplicacao(operacao); break;
+                case '-': operacao.resultado = Subtracao(operacao);break;               
+                
                 default: operacao.resultado = 0; break;
             }
             return operacao;
         }
-        public int soma(Operacoes operacao)
+        public long Soma(Operacoes operacao)
         {
             return operacao.valorA + operacao.valorB;
         }
-        public int subtracao(Operacoes operacao)
+        public long Subtracao(Operacoes operacao)
         {
             return operacao.valorA - operacao.valorB;
         }
-        public int multiplicacao(Operacoes operacao)
+        public long Multiplicacao(Operacoes operacao)
         {
             return operacao.valorA * operacao.valorB;
+        }
+        public long Divisao(Operacoes operacao)
+        {
+            return operacao.valorA / operacao.valorB;
         }
        
     }

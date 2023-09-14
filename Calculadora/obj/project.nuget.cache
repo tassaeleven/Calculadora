@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IsL8X41Yj0yiKKBhFyEE4f7OllnFKlo1/SbMoqIEOy5xYLXODIMV0sWpQ8myGn7OnzZQk5b/ekr20AW32YB47g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tassa\\Calculadora2\\Calculadora\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tassa\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tassa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tassa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tassa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
